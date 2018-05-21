@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+  <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  #qq img{
+  	width: 100%;
+  	height: auto;
+  }
+  #q1{
+  	display: inline;
+  	float: right;
+  }
+   #q2{
+  	width: 100%;
+  }
+  #qw{
+  	position: relative;
+  	left:50%;
+  	top: auto;
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">杨小敏</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">part1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">part2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">part3</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div class="container-fluid">
+	<div id="qq">
+		<img class="wow rubberBand" data-wow-delay=".6s" src="img/psbe (1).jpg"/>
+		<h3>VS</h3>
+		<img class="wow tada" data-wow-delay=".6s" src="img/psbe (10).jpg"/>
+	</div>
+	<br/>
+	<button  id="qw" type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+    肾虚请点击
+  </button>
+  <br/>
+   
+  <!-- 模态框 -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+   
+        <!-- 模态框头部 -->
+        <div class="modal-header">
+          <h4 class="modal-title">Who is GAY?</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+   
+        <!-- 模态框主体 -->
+        <div class="modal-body">
+          猜猜谁是gay?..
+        </div>
+            <div class="modal-body">
+          当然是杨敏呀(鸭)..
+        </div>
+   
+        <!-- 模态框底部 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+        </div>
+   
+      </div>
+    </div>
+  </div>
+	<br/>
+	
+<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h1>Part 1</h1>
+  <p class="wow fadeInLeft" data-wow-delay=".4s">有一男生腼腆用纸条给女神表白，写上：520+1314。纸条回来后写着(520+ 1314)×10。男生欣喜若狂，但随后便默默流泪，你知道为什么？因为结果等于18340，就是：一巴掌扇死你</p>
+  <p class="wow jackInTheBox" data-wow-delay=".6s">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+	<br/>
+<div id="">
+	<img class="wow slideInDown" data-wow-delay=".6s" id="q2" src="img/psbe (11).jpg"/>
+	<img class="wow slideInRight" data-wow-delay=".6s" id="q1" src="img/psbe (5).jpg"/>
+</div>
+	
+<div id="section2" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 2</h1>
+  <p class="wow zoomInDown" data-wow-delay=".6s">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p class="wow zoomInRight" data-wow-delay=".6s">一男子问一妹子，妹子？黄瓜能干啥呢？妹子答不知道！男子再问:那胡萝卜能用来干什么啊！妹子任说不知道！男子再问:那茄子能用来干什么啊，妹子依旧摇头说不知道！男子无奈，最后问，那蘑菇能干什么啊！妹子大声问:什么？蘑菇也可以？男子……</p>
+</div>
+<div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 3</h1>
+  <p class="wow zoomOutRight" data-wow-delay=".6s">男：小姐，你真貌美如花哇！
+女：你说我长得好看？
+男：不不，你别误会，我就是单纯觉得你像一种花而已。
+女：那我像什么花？
+男：向日葵！
+女：我那里像向日葵？
+男：脸大没腰。</p>
+  <p class="wow zoomOutUp" data-wow-delay=".6s">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+  <h1 style="color: yellowgreen;">the End</h1>
+ 
+</div>
+
+</body>
+<script type="text/javascript">
+	var wow=new WOW({
+		animateClass:'animated',
+	});
+	wow.init();
+</script>
+</html>
